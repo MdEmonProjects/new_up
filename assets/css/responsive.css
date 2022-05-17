@@ -1,0 +1,454 @@
+/*************************************************
+              Responsive media query    
+**************************************************/
+
+/* Large devices (-xl-, <1400px) */
+@media (min-width: 1801px) and (max-width: 1881.98px){
+    .nav_section ul li a {
+        margin-right: 34px;
+        font-size: 16px;
+    }
+
+}
+@media (min-width: 1401px) and (max-width: 1800px) {
+    .xl-hidden{
+        display: none;
+    }
+    .col-hidden.tab-hidden.md-hidden.lg-hidden.xl-hidden{
+        display: none;
+    }
+    .header_section {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .logo_section{
+        width: 100px;
+    }
+    .nav_section ul li a {
+        margin-right: 20px;
+        font-size: 14px;
+    }
+    .user_name a p {
+        margin: 0px 14px;
+    }
+    .player_profile {
+        padding-left: 20px;
+    }
+    .search_icon {
+        right: 20px;
+    }
+    .search_section input {
+        padding-right: 48px;
+    }
+    .search_section {
+        width: 290px;
+    }
+
+
+    /* banner part start */
+    .banner_container {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .banner_sports_list {
+        width: 20%;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .banner_sports_result {
+        padding-left: 10px;
+        padding-right: 10px;
+        width: 56%;
+    }
+    .sports_offer_header h3 {
+        font-size: 17px;
+    }
+    .banner_top_section_header .single_content.first {
+        width: 36%;
+    }
+    .banner_top_section_header .single_content.second {
+        width: 36%;
+    }
+    .banner_top_section_header .single_content.third {
+        width: 26%;
+    }
+    /* banner part end */
+  
+}
+/* Large devices (-lg-, <1200px) */
+@media (min-width: 1200px) and (max-width: 1400.98px)  {
+    .lg-hidden{
+        display: none;
+
+    }
+    .col-hidden.md-hidden.tab-hidden.lg-hidden{
+        display: none;
+    }
+    .md-hidden.tab-hidden.lg-hidden{
+        display: none;
+    }
+    .md-hidden.lg-hidden{
+        display: none;
+    }
+    .tab-hidden.lg-hidden{
+        display: none;
+    }
+
+    .nav_section ul li a {
+        margin-right: 20px;
+        font-size: 14px;
+    }
+    .player_profile {
+        padding-left: 30px;
+    }
+    .search_section {
+        width: 350px;
+    }
+    .search_section input {
+        padding-right: 60px;
+    }
+
+    .banner_container {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .banner_sports_list {
+        width: 20%;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .banner_sports_result {
+        padding-left: 10px;
+        padding-right: 10px;
+        width: 54%;
+    }
+    .banner_sports_offer {
+        width: 26%;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .accordion-body ul {
+        padding-left: 0px;
+    }
+
+    .sports_offer_header h3 {
+        font-size: 16px;
+    }
+    .banner_top_section_header .single_content.first {
+        width: 33.33%;
+    }
+    .banner_top_section_header .single_content.second {
+        width: 33.33%;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+    .banner_top_section_header .single_content.third {
+        width: 33.33%;
+    }
+    .banner_top_section_header .single_content {
+        border-radius: 15px;
+        height: 45px;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .banner_top_section_header {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .sports_result_top_side_footer_content .text_section {
+        border-radius: 15px;
+    }
+    .banner_top_section_footer {
+        padding-left: 10px;
+    }
+    .left_side .text h3 {
+        font-size: 14px;
+        padding-left: 12px;
+    }
+    .right_side_of_tab span {
+        font-size: 14px;
+    }
+    .match_result_tab {
+        padding-left: 15px;
+    }
+    .left_site_of_tab {
+        margin-right: 30px;
+        font-size: 14px;
+    }
+  
+}
+/* Medium devices (-md-, <992px) */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    .md-hidden{
+        display: none;
+
+    }
+    .tab-hidden.md-hidden{
+        display: none;
+    }
+    .col-hidden.tab-hidden.md-hidden{
+        display: none;
+    }
+    .tab-block.md-block{
+        display: block;
+    }
+    .col-block.tab-block.md-block{
+        display: block;
+    }
+
+
+    /* .header_section{
+        display: none;
+    } */
+    .nav_section{
+        display: none;
+    }
+    .user_image a {
+        color: #00415F;
+        font-size: 14px;
+        font-family: serif;
+    }
+    .user_image a span {
+        display: block;
+        margin-top: 5px;
+    }
+
+    .banner_container {
+        flex-wrap: wrap;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .banner_sports_list {
+        width: 28%;
+        height: inherit;
+        order: 1;
+    }
+    .banner_sports_result {
+        width: 100%;
+        order: 3;
+        margin-top: 40px;
+    }
+    .banner_sports_offer {
+        width: 70%;
+        order: 2;
+    }
+    .banner_top_section_header .single_content.first {
+        width: 350px;
+    }
+}
+/* Small devices (-sm-, <768px) */
+
+@media (min-width: 768px) and (max-width: 991px){
+    .tab-hidden{
+        display: none;
+
+    }
+    .tab-block{
+        display: block;
+    }
+    .col-block.tab-block{
+        display: block;
+    }
+    
+    .header_section {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .nav_section{
+        display: none;
+    }
+    .user_image a {
+        color: #00415F;
+        font-size: 14px;
+        font-family: serif;
+    }
+    .user_image a span {
+        display: block;
+        margin-top: 5px;
+    }
+    .banner_container {
+        flex-wrap: wrap;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .banner_sports_list {
+        width: 49%;
+        height: inherit;
+        order: 1;
+    }
+    .banner_sports_result {
+        width: 100%;
+        order: 3;
+        margin-top: 40px;
+    }
+    .banner_sports_offer {
+        width: 49%;
+        order: 2;
+    }
+    .left_site_of_tab {
+        margin-right: 50px;
+    }
+    .banner_top_section_header .single_content.first {
+        width: 33.33%;
+    }
+    .banner_top_section_header .single_content.second {
+        width: 33.33%;
+        margin-right: 10px;
+        margin-left: 10px;
+    }
+    .banner_top_section_header .single_content.third {
+        width: 33.33%;
+    }
+
+    .left_side .text h3 {
+        font-size: 14px;
+    }
+    .banner_top_section_header .single_content {
+        border-radius: 20px;
+        height: 46px;
+    }
+
+}
+/* Extra small devices (-xm-, <576px) */
+@media only screen and (min-width: 320px) and (max-width: 767px){
+    /* .header_section {
+        display: none;
+    } */
+    .header_section {
+        padding-right: 0px;
+        padding-top: 0px;
+        padding-bottom: 0px;
+        padding-left: 13px;
+    }
+    .header_section .logo_section a {
+        margin-top: -18px;
+    }
+    .banner_header_sec ul {
+        padding-left: 27px;
+    }
+    .banner_header_sec ul li span{
+        margin-right: 10px;
+        
+    }
+    .banner_header_sec ul li span img{
+        transform: rotate(180deg);
+    }
+    .nav_section{
+        display: none;
+    }
+    .search_section input {
+        display: none;
+    }
+    .search_section {
+        height: auto;
+        width: auto;
+        margin-right: 28px;
+    }
+    .search_icon {
+        position: relative;
+        right: 0;
+        top: 0;
+        transform: translateY(0%);
+    }
+    .search_icon i {
+        font-size: 29px;
+    }
+    .player_profile {
+        display: flex;
+        align-items: center;
+        margin-left: 48px;
+        padding-left: 27px;
+        padding-right: 16px;
+        height: 86px;
+        background: #F0F8FD;
+        border-bottom-left-radius: 10px;
+
+    }
+    .user_image a{
+        color: #00415F;
+        font-size: 14px;
+        font-family: serif;
+        
+    }
+    .user_image a span{
+        display: block;
+        margin-top: 5px;
+        
+    }
+    .user_name{
+        display: none;
+    }
+    .player_profile_name{
+        display: none;
+    }
+
+
+
+    .col-hidden{
+        display: none;
+    }
+    .col-block{
+        display: block;
+    }
+
+    /* banner start */
+    .banner_container {
+        flex-direction: column;
+        padding-left: 15px;
+        padding-right: 15px;
+        overflow: hidden;
+    }
+    .banner_sports_list {
+        width: 100%;
+    }
+    .banner_sports_result {
+        padding-left: 0px;
+        padding-right: 0px;
+        width: 100%;
+    }
+    .banner_top_section_header {
+        flex-direction: column;
+    }
+    .banner_top_section_header .single_content {
+        margin-top: 0px;
+        margin-bottom: 10px;
+        width: 100% !important;
+    }
+    .banner_top_section_footer {
+        justify-content: space-between;
+    }
+    .sports_result_top_side_footer_content {
+        margin-right: 0px;
+    }
+    .sports_result_top_side_footer_content .text_section {
+        width: 100%;
+        border-radius: 15px;
+    }
+    .sports_result_top_side_footer_content {
+        width: 49%;
+        margin-left: 6px;
+        margin-right: 6px;
+    }
+    .sports_result_top_side_footer_content .text_section a {
+        margin-left: -20px;
+    }
+
+
+    .banner_sports_offer {
+        width: 100%;
+        margin-top: 20px;
+    }
+    .banner_sports_result {
+        margin-top: 20px;
+    }
+    .top_section {
+        padding-top: 29px;
+    }
+    .sports_offer_header h3 {
+        font-size: 14px;
+    }
+    /* banner End */
+}
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+
+}
